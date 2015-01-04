@@ -134,7 +134,7 @@ div.l-box a {
 }
 ul#nav  
 {
-	float: left;
+
 	width: 660px;
 	position: absolute;
 	line-height: 40px;
@@ -156,14 +156,13 @@ ul#nav
 #header input {
 	width: 100px;
 	position: absolute;
-	left: 1040px;
+	left: 1000px;
 	border-style: solid;
 	border-radius: 5px;
 }
 
 #header input.big {
-	width: 200px;
-	left: 900px;
+	width: 160px;
 	border-color:rgba(102,45,145,.75);
 	box-shadow:0 0 8px rgba(102,45,105,.5);
 	-moz-box-shadow:0 0 8px rgba(102,45,105,.5);
@@ -173,6 +172,7 @@ ul#nav
 li#frame {
 	position: absolute;
 	top: 3px;
+	left:0;
 	text-indent: -9999px;
 	width: 90px;
 	height: 30px;
